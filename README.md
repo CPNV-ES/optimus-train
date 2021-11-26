@@ -2,6 +2,12 @@
 
 ## Running
 
+To create a virtual python environnment :
+
+```sh
+python3 -m venv venv
+```
+
 ```sh
 $ export FLASK_APP=app.py
 $ export FLASK_ENV=development
