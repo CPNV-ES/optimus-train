@@ -1,0 +1,162 @@
+{
+    "nhits": 29294,
+    "parameters": {
+        "dataset": "rail-traffic-information",
+        "timezone": "UTC",
+        "rows": 10,
+        "start": 0,
+        "format": "json"
+    },
+    "records": [
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "0439b24f42af9b4a1acb6ccbec0394065dc17f5d",
+            "fields": {
+                "validitybegin": "2020-02-27T01:00:00+00:00",
+                "description": "27.02.2020 - 28.02.2020 00:30Aigle - Monthey-Ville: The rail traffic between Aigle and Monthey-Ville is interrupted. Replacement buses operate . Passengers from Aigle (H\u00c3\u00b4pital) to Monthey-Ville: Bus to Monthey-Ville. Passengers from Monthey-Ville (/Monthey-En-Place) to Aigle: Bus to Aigle (H\u00c3\u00b4pital). Due: strong winds Duration of until 28.02.2020 00:30.",
+                "description_html": "27.02.2020 - 28.02.2020 00:30  Aigle - Monthey-Ville: The rail traffic between Aigle and Monthey-Ville is interrupted.  Replacement buses operate .  Passengers from Aigle (H\u00c3\u00b4pital) to Monthey-Ville: Bus to Monthey-Ville. Passengers from Monthey-Ville (/Monthey-En-Place) to Aigle: Bus to Aigle (H\u00c3\u00b4pital).  Due: strong winds Duration of until 28.02.2020 00:30.",
+                "title": "Restriction in rail traffic: Aigle - Monthey-Ville",
+                "author": "SBB",
+                "validityend": "2020-02-28T01: 30: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1086559&hMap=false&",
+                "published": "2020-02-27T21:25:56+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "6b0251d20c25076221bc0850cb0d08b7a1d9cc67",
+            "fields": {
+                "validitybegin": "2020-02-27T01:00:00+00:00",
+                "description": "27.02.2020 00:00 - 23:55Offenburg - Freiburg (Breisgau) Hbf: The rail traffic between Offenburg and Freiburg (Breisgau) Hbf is interrupted. Delays and cancellations are expected. Due: problem with the overhead line Duration indefinite.",
+                "description_html": "27.02.2020 00:00 - 23:55  Offenburg - Freiburg (Breisgau) Hbf: The rail traffic between Offenburg and Freiburg (Breisgau) Hbf is interrupted.  Delays and cancellations are expected.  Due: problem with the overhead line Duration indefinite.",
+                "title": "Interruption: Offenburg - Freiburg (Breisgau) Hbf",
+                "author": "SBB",
+                "validityend": "2020-02-28T00: 55: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1086711&hMap=false&",
+                "published": "2020-02-27T19:44:48+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "8bac421db6eaeda1df1af3b7c751a2dce4df1236",
+            "fields": {
+                "validitybegin": "2020-02-27T01:00:00+00:00",
+                "description": "27.02.2020 00:00 - 23:59Z\u00c3\u00bcrich HB, Gleis 41-44 - Z\u00c3\u00bcrich Stadelhofen: The rail traffic between Z\u00c3\u00bcrich HB, Gleis 41-44 and Z\u00c3\u00bcrich Stadelhofen is affected. Delays and cancellations are expected and services may be diverted. Due: technical fault with the railway Installation Duration of restriction: indefinite",
+                "description_html": "27.02.2020 00:00 - 23:59  Z\u00c3\u00bcrich HB, Gleis 41-44 - Z\u00c3\u00bcrich Stadelhofen: The rail traffic between Z\u00c3\u00bcrich HB, Gleis 41-44 and Z\u00c3\u00bcrich Stadelhofen is affected.  Delays and cancellations are expected and services may be diverted.  Due: technical fault with the railway Installation Duration of restriction: indefinite",
+                "title": "Restriction in rail traffic: Z\u00c3\u00bcrich HB, Gleis 41-44 - Z\u00c3\u00bcrich Stadelhofen",
+                "author": "SBB",
+                "validityend": "2020-02-28T00: 59: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1086716&hMap=false&",
+                "published": "2020-02-27T19:01:05+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "ac2b59c0deecf6b104d8967ee9914bf962c4e73c",
+            "fields": {
+                "validitybegin": "2020-01-11T01:00:00+00:00",
+                "description": "11.01.2020 00:00 - 11:50The disruption between Tramelan and La Chaux-de-Fonds is over. The trains are running on schedule again.",
+                "description_html": "11.01.2020 00:00 - 11:50  The disruption between Tramelan and La Chaux-de-Fonds is over.  The trains are running on schedule again.",
+                "title": "Final announcement: Tramelan - La Chaux-de-Fonds",
+                "author": "SBB",
+                "validityend": "2020-01-11T12: 50: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1066972&hMap=false&",
+                "published": "2020-01-11T11:19:11+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "7207b99d665c2cb3d034de023af6bbaa88cb98f6",
+            "fields": {
+                "validitybegin": "2020-02-28T01:00:00+00:00",
+                "description": "28.02.2020 00:00 - 11:15The disruption between Heerbrugg and Rebstein-Marbach is over.",
+                "description_html": "28.02.2020 00:00 - 11:15  The disruption between Heerbrugg and Rebstein-Marbach is over.",
+                "title": "Final announcement: Heerbrugg - Rebstein-Marbach",
+                "author": "SBB",
+                "validityend": "2020-02-28T12: 15: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1086940&hMap=false&",
+                "published": "2020-02-28T10:47:13+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "34ca6607f7fc18a123eaa70707d2938180b80245",
+            "fields": {
+                "validitybegin": "2020-01-13T14:00:00+00:00",
+                "description": "13.01.2020 13:00 - 14:30The disruption between Eschenbach and Lenzburg is over. Further delays are expected.",
+                "description_html": "13.01.2020 13:00 - 14:30  The disruption between Eschenbach and Lenzburg is over.  Further delays are expected.  ",
+                "title": "Final announcement: Eschenbach - Lenzburg",
+                "author": "SBB",
+                "validityend": "2020-01-13T15: 30: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1067557&hMap=false&",
+                "published": "2020-01-13T13:50:51+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "11bc35514493bcf996fe5db7c969e886a00b31c0",
+            "fields": {
+                "validitybegin": "2020-02-29T15:11:00+00:00",
+                "description": "29.02.2020 14:11 - 23:59Montreux - Rochers-de-Naye: The rail traffic between Haut-de-Caux and Rochers-de-Naye is interrupted. Regional trains are cancelled between Haut-de-Caux and Rochers-de-Naye. Due: strong winds Duration from 29.02.2020 14:11 for an undefinite time.",
+                "description_html": "29.02.2020 14:11 - 23:59  Montreux - Rochers-de-Naye: The rail traffic between Haut-de-Caux and Rochers-de-Naye is interrupted.  Regional trains are cancelled between Haut-de-Caux and Rochers-de-Naye.  Due: strong winds Duration from 29.02.2020 14: 11 for an undefinite time.",
+                "title": "Restriction in rail traffic: Montreux - Rochers-de-Naye",
+                "author": "SBB",
+                "validityend": "2020-03-01T00: 59: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1087254&hMap=false&",
+                "published": "2020-02-29T13:52:10+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "d9b8f6d3e1eec1ba3104cf2c99615172e4d1d9cd",
+            "fields": {
+                "validitybegin": "2020-01-16T01:00:00+00:00",
+                "description": "16.01.2020 00:00 - 17:05The disruption at Melide station has been cleared.",
+                "description_html": "16.01.2020 00:00 - 17:05  The disruption at Melide station has been cleared.  ",
+                "title": "Final announcement: Melide",
+                "author": "SBB",
+                "validityend": "2020-01-16T18: 05: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1068903&hMap=false&",
+                "published": "2020-01-16T17:02:33+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "3023c06931e8feee6be6b82f70bcb904c73ff1b0",
+            "fields": {
+                "validitybegin": "2020-01-15T01:00:00+00:00",
+                "description": "15.01.2020 00:00 - 23:59Lyss - B\u00c3\u00bcren an der Aare: The rail traffic between Busswil and B\u00c3\u00bcren an der Aare is interrupted. Delays and cancellations are expected. Due: track blocked by train Duration of restriction: indefinite",
+                "description_html": "15.01.2020 00:00 - 23:59  Lyss - B\u00c3\u00bcren an der Aare: The rail traffic between Busswil and B\u00c3\u00bcren an der Aare is interrupted.  Delays and cancellations are expected.  Due: track blocked by train Duration of restriction: indefinite",
+                "title": "Restriction in rail traffic: Lyss - B\u00c3\u00bcren an der Aare",
+                "author": "SBB",
+                "validityend": "2020-01-16T00: 59: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1068331&hMap=false&",
+                "published": "2020-01-15T08:35:02+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        },
+        {
+            "datasetid": "rail-traffic-information",
+            "recordid": "1b7b7b2f4815a0bb1ff7e5e8008190fc8d46cc8b",
+            "fields": {
+                "validitybegin": "2020-02-26T06:00:00+00:00",
+                "description": "26.02.2020 05:00 - 07:00Gen\u00c3\u00a8ve - Gen\u00c3\u00a8ve-A\u00c3\u00a9roport: The rail traffic between Gen\u00c3\u00a8ve and Gen\u00c3\u00a8ve-A\u00c3\u00a9roport is affected. Delays and cancellations are expected. Due: unscheduled construction work Duration of restriction: expected until 05:30",
+                "description_html": "26.02.2020 05:00 - 07:00  Gen\u00c3\u00a8ve - Gen\u00c3\u00a8ve-A\u00c3\u00a9roport: The rail traffic between Gen\u00c3\u00a8ve and Gen\u00c3\u00a8ve-A\u00c3\u00a9roport is affected.  Delays and cancellations are expected.  Due: unscheduled construction work Duration of restriction: expected until 05: 30",
+                "title": "Restriction in rail traffic: Gen\u00c3\u00a8ve - Gen\u00c3\u00a8ve-A\u00c3\u00a9roport",
+                "author": "SBB",
+                "validityend": "2020-02-26T08: 00: 00+00: 00",
+                "link": "http: //fahrplan.sbb.ch/bin/help.exe/en?tpl=showmap_external&messageID=1086013&hMap=false&",
+                "published": "2020-02-26T05:13:12+01:00"
+            },
+            "record_timestamp": "2021-07-08T10:20:55.812000+00:00"
+        }
+    ]
+}
