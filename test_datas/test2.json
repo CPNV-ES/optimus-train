@@ -1,0 +1,402 @@
+{
+    "nhits": 408,
+    "parameters": {
+        "dataset": "linie",
+        "timezone": "UTC",
+        "rows": 10,
+        "start": 0,
+        "format": "json"
+    },
+    "records": [
+        {
+            "datasetid": "linie",
+            "recordid": "135da43fc6def387f013fd2a166c1bcf5eb364e4",
+            "fields": {
+                "linienname": "Lausanne - Simplon Tunnel I - Iselle",
+                "bpk_anfang": "Lausanne",
+                "geo_point_2d": [
+                    46.3619002097,
+                    7.41805318777
+                ],
+                "km_ende": 167.478,
+                "stationierung_ende": 1000000,
+                "linie": 100,
+                "bpk_ende": "Iselle di Trasquera",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.6290923032,
+                            46.5167918355
+                        ],
+                        [
+                            8.20701407234,
+                            46.2070085838
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.41805318777,
+                    46.3619002097
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "784d5380757e60236359dc5e777f819aee7989d7",
+            "fields": {
+                "linienname": "Palezieux - Chatel-St-Denis",
+                "bpk_anfang": "Palezieux",
+                "geo_point_2d": [
+                    46.5344606959,
+                    6.86824234657
+                ],
+                "km_ende": 6.78,
+                "stationierung_ende": 1000000,
+                "linie": 117,
+                "bpk_ende": "Chatel-St-Denis",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.83787527681,
+                            46.5427635936
+                        ],
+                        [
+                            6.89860941633,
+                            46.5261577982
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.003
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.86824234657,
+                    46.5344606959
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "7e98e2b322300f0fbbae680a5875ab2c6459bb5b",
+            "fields": {
+                "linienname": "Aigle - Aigle-Depot",
+                "bpk_anfang": "Aigle",
+                "geo_point_2d": [
+                    46.3176387672,
+                    6.96921514521
+                ],
+                "km_ende": 1.03,
+                "stationierung_ende": 1000000,
+                "linie": 125,
+                "bpk_ende": "Aigle-Depot",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.96368321186,
+                            46.3168554186
+                        ],
+                        [
+                            6.97474707856,
+                            46.3184221158
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.96921514521,
+                    46.3176387672
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "d7a6cc2fc4b13781d963848988f2c7ce74df01d6",
+            "fields": {
+                "linienname": "Aigle-Depot - Leysin",
+                "bpk_anfang": "Aigle-Depot",
+                "geo_point_2d": [
+                    46.3320017476,
+                    6.9906086343
+                ],
+                "km_ende": 6.207,
+                "stationierung_ende": 1000000,
+                "linie": 126,
+                "bpk_ende": "Leysin-Grand-Hotel",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.97474707856,
+                            46.3184221158
+                        ],
+                        [
+                            7.00647019005,
+                            46.3455813795
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 1.03
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9906086343,
+                    46.3320017476
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "00331e44e66450a57747dd05757ad7112549006d",
+            "fields": {
+                "linienname": "Villars - Col-de-Bretaye",
+                "bpk_anfang": "Villars-sur-Ollon",
+                "geo_point_2d": [
+                    46.3092433905,
+                    7.06465789168
+                ],
+                "km_ende": 4.652,
+                "stationierung_ende": 1000000,
+                "linie": 128,
+                "bpk_ende": "Col-de-Bretaye",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            7.0559185789,
+                            46.2965526464
+                        ],
+                        [
+                            7.07339720446,
+                            46.3219341346
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.06465789168,
+                    46.3092433905
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "9624c62fee0848dbfbd1346248d90e1e2599d946",
+            "fields": {
+                "linienname": "Les Paluds - St-Gingolph (Frontiere)",
+                "bpk_anfang": "Les Paluds",
+                "geo_point_2d": [
+                    46.3139517049,
+                    6.88402235404
+                ],
+                "km_ende": 29.975,
+                "stationierung_ende": 1000000,
+                "linie": 131,
+                "bpk_ende": "Bret [F]",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            7.00042308458,
+                            46.229569314
+                        ],
+                        [
+                            6.76762162349,
+                            46.3983340958
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 1.472
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.88402235404,
+                    46.3139517049
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "b3fe7974eeb6c628c1e4d9e8ea97be237a620088",
+            "fields": {
+                "linienname": "Martigny - Orsieres",
+                "bpk_anfang": "Martigny",
+                "geo_point_2d": [
+                    46.0668830689,
+                    7.11130542428
+                ],
+                "km_ende": 19.34,
+                "stationierung_ende": 1000000,
+                "linie": 133,
+                "bpk_ende": "Orsieres",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            7.07912412849,
+                            46.1058312072
+                        ],
+                        [
+                            7.14348672007,
+                            46.0279349307
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.017
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.11130542428,
+                    46.0668830689
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "11ffb628420aa39f841ac17c06b5f15d719efdbb",
+            "fields": {
+                "linienname": "Gland Ballastiere",
+                "bpk_anfang": "Gland Ouest",
+                "geo_point_2d": [
+                    46.4177503085,
+                    6.26317529759
+                ],
+                "km_ende": 34.7,
+                "stationierung_ende": 1000000,
+                "linie": 149,
+                "bpk_ende": "Gland Ballastiere",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.26568872888,
+                            46.4168433737
+                        ],
+                        [
+                            6.26066186629,
+                            46.4186572433
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 34.23
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.26317529759,
+                    46.4177503085
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "f334ae41ff08144959d40eb962dc915a18d20b6f",
+            "fields": {
+                "linienname": "Annemasse - Evian-les-Bains",
+                "bpk_anfang": "Annemasse",
+                "geo_point_2d": [
+                    46.2985772992,
+                    6.40731449438
+                ],
+                "km_ende": 0.005,
+                "stationierung_ende": 1000000,
+                "linie": 192,
+                "bpk_ende": "Evian-les-Bains",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.23620010296,
+                            46.1994013141
+                        ],
+                        [
+                            6.5784288858,
+                            46.3977532843
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 0.0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.40731449438,
+                    46.2985772992
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        },
+        {
+            "datasetid": "linie",
+            "recordid": "6e254abdc0569455d5830a458af341dce4c69cf0",
+            "fields": {
+                "linienname": "Renens VD Ouest - Vallorbe",
+                "bpk_anfang": "Renens VD Ouest (bif)",
+                "geo_point_2d": [
+                    46.6265973078,
+                    6.47132632139
+                ],
+                "km_ende": 46.306,
+                "stationierung_ende": 1000000,
+                "linie": 200,
+                "bpk_ende": "Vallorbe",
+                "tst": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            6.57208700737,
+                            46.5407882914
+                        ],
+                        [
+                            6.37056563541,
+                            46.7124063243
+                        ]
+                    ]
+                },
+                "stationierung_anfang": 0,
+                "km_anfang": 5.18
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.47132632139,
+                    46.6265973078
+                ]
+            },
+            "record_timestamp": "2021-11-30T04:27:00+00:00"
+        }
+    ]
+}

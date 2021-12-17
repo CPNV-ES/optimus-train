@@ -1,0 +1,3353 @@
+{
+    "nhits": 64922,
+    "parameters": {
+        "dataset": "ist-daten-sbb",
+        "timezone": "UTC",
+        "rows": 10,
+        "start": 0,
+        "format": "json",
+        "facet": [
+            "betreiber_id",
+            "produkt_id",
+            "linien_id",
+            "linien_text",
+            "verkehrsmittel_text",
+            "faellt_aus_tf",
+            "bpuic",
+            "ankunftszeit",
+            "an_prognose",
+            "an_prognose_status",
+            "ab_prognose_status",
+            "ankunftsverspatung",
+            "abfahrtsverspatung"
+        ]
+    },
+    "records": [
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "261187b4fbe35adfb493756944ed060d0bb563d6",
+            "fields": {
+                "fahrt_bezeichner": "85:11:100:001",
+                "bpuic": 8500010,
+                "abfahrtsverspatung": "true",
+                "verkehrsmittel_text": "ICE",
+                "abfahrtszeit": "2021-12-02T19:13:00",
+                "lod": "http://lod.opentransportdata.swiss/didok/8500010",
+                "haltestellen_name": "Basel SBB",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "geopos": [
+                    47.5474120551,
+                    7.58956279016
+                ],
+                "ab_prognose_status": "REAL",
+                "linien_id": 100,
+                "betreiber_abk": "SBB",
+                "zusatzfahrt_tf": "false",
+                "linien_text": "ICE",
+                "durchfahrt_tf": "false",
+                "ab_prognose": "2021-12-02T19:23:28",
+                "ankunftsverspatung": "false",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "betriebstag": "2021-12-02"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.58956279016,
+                    47.5474120551
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "c1e4cf49cec65f88d2a00e0b3d50536e7706c490",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10034:002",
+                "bpuic": 8501609,
+                "abfahrtsverspatung": "false",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10034,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501609",
+                "abfahrtszeit": "2021-12-02T15:16:00",
+                "ankunftszeit": "2021-12-02T15:14:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.3194227058,
+                    7.9880947394
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "false",
+                "ab_prognose": "2021-12-02T15:18:10",
+                "haltestellen_name": "Brig",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T15:14:19"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9880947394,
+                    46.3194227058
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "0d79705726f008017f38fdda3ac03e46e63bd3f7",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10034:002",
+                "bpuic": 8501300,
+                "abfahrtsverspatung": "false",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10034,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501300",
+                "abfahrtszeit": "2021-12-02T16:23:00",
+                "ankunftszeit": "2021-12-02T16:22:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.4358843411,
+                    6.91044012131
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "false",
+                "ab_prognose": "2021-12-02T16:23:52",
+                "haltestellen_name": "Montreux",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T16:22:15"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.91044012131,
+                    46.4358843411
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "0af4832defc810495894ba5794a48a01e2c68f39",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10036:002",
+                "bpuic": 8501609,
+                "abfahrtsverspatung": "true",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10036,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501609",
+                "abfahrtszeit": "2021-12-02T19:16:00",
+                "ankunftszeit": "2021-12-02T19:14:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.3194227058,
+                    7.9880947394
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "true",
+                "ab_prognose": "2021-12-02T19:21:06",
+                "haltestellen_name": "Brig",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T19:18:41"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9880947394,
+                    46.3194227058
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "fa63aa7a350eafaecdab0117c96e256dde50c90d",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10039:003",
+                "bpuic": 8501609,
+                "abfahrtsverspatung": "true",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10039,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501609",
+                "abfahrtszeit": "2021-12-02T15:44:00",
+                "ankunftszeit": "2021-12-02T15:40:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.3194227058,
+                    7.9880947394
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "true",
+                "ab_prognose": "2021-12-02T15:51:32",
+                "haltestellen_name": "Brig",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T15:49:24"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9880947394,
+                    46.3194227058
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "99581ce46aaadd05d3a72ffda7bf9c5953a36092",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10039:003",
+                "bpuic": 8501120,
+                "abfahrtsverspatung": "true",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10039,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501120",
+                "abfahrtszeit": "2021-12-02T14:18:00",
+                "ankunftszeit": "2021-12-02T14:15:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.5167918355,
+                    6.6290923032
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "true",
+                "ab_prognose": "2021-12-02T14:31:46",
+                "haltestellen_name": "Lausanne",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T14:28:56"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6290923032,
+                    46.5167918355
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "8ce22c4c83757f1f0ec50e2ec4cbce6a3364c09d",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10041:002",
+                "bpuic": 8501008,
+                "abfahrtsverspatung": "false",
+                "verkehrsmittel_text": "EC",
+                "abfahrtszeit": "2021-12-02T18:39:00",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501008",
+                "haltestellen_name": "Gen\u00e8ve",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "geopos": [
+                    46.2102128988,
+                    6.14245159514
+                ],
+                "ab_prognose_status": "REAL",
+                "linien_id": 10041,
+                "betreiber_abk": "SBB",
+                "zusatzfahrt_tf": "true",
+                "linien_text": "EC",
+                "durchfahrt_tf": "false",
+                "ab_prognose": "2021-12-02T18:39:56",
+                "ankunftsverspatung": "false",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "betriebstag": "2021-12-02"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.14245159514,
+                    46.2102128988
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "62b434fc74412e78489572da66a20c93eac341f4",
+            "fields": {
+                "fahrt_bezeichner": "85:11:10041:002",
+                "bpuic": 8501120,
+                "abfahrtsverspatung": "false",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "betriebstag": "2021-12-02",
+                "linien_id": 10041,
+                "an_prognose_status": "REAL",
+                "verkehrsmittel_text": "EC",
+                "lod": "http://lod.opentransportdata.swiss/didok/8501120",
+                "abfahrtszeit": "2021-12-02T19:18:00",
+                "ankunftszeit": "2021-12-02T19:15:00",
+                "ab_prognose_status": "REAL",
+                "betreiber_abk": "SBB",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "geopos": [
+                    46.5167918355,
+                    6.6290923032
+                ],
+                "zusatzfahrt_tf": "true",
+                "durchfahrt_tf": "false",
+                "ankunftsverspatung": "false",
+                "ab_prognose": "2021-12-02T19:18:49",
+                "haltestellen_name": "Lausanne",
+                "linien_text": "EC",
+                "an_prognose": "2021-12-02T19:14:01"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.6290923032,
+                    46.5167918355
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "226a1792eecb0f467cad89827b941659603dd313",
+            "fields": {
+                "fahrt_bezeichner": "85:11:1011:001",
+                "bpuic": 8503000,
+                "abfahrtsverspatung": "false",
+                "verkehrsmittel_text": "IC",
+                "ankunftszeit": "2021-12-02T08:23:00",
+                "lod": "http://lod.opentransportdata.swiss/didok/8503000",
+                "haltestellen_name": "Z\u00fcrich HB",
+                "geopos": [
+                    47.3781766742,
+                    8.5402123491
+                ],
+                "betreiber_id": "85:11",
+                "linien_id": 1011,
+                "betreiber_abk": "SBB",
+                "zusatzfahrt_tf": "false",
+                "linien_text": "IC4",
+                "durchfahrt_tf": "false",
+                "an_prognose": "2021-12-02T08:26:24",
+                "ankunftsverspatung": "true",
+                "faellt_aus_tf": "false",
+                "an_prognose_status": "REAL",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "betriebstag": "2021-12-02"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5402123491,
+                    47.3781766742
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        },
+        {
+            "datasetid": "ist-daten-sbb",
+            "recordid": "ad9cc5db2d3a49c80b9d8e32ffa85c8d7652c222",
+            "fields": {
+                "fahrt_bezeichner": "85:11:1056:001",
+                "bpuic": 8507492,
+                "abfahrtsverspatung": "false",
+                "verkehrsmittel_text": "IC",
+                "abfahrtszeit": "2021-12-02T05:31:00",
+                "lod": "http://lod.opentransportdata.swiss/didok/8507492",
+                "haltestellen_name": "Interlaken Ost",
+                "produkt_id": "Zug",
+                "betreiber_id": "85:11",
+                "geopos": [
+                    46.6904999962,
+                    7.86900000435
+                ],
+                "ab_prognose_status": "REAL",
+                "linien_id": 1056,
+                "betreiber_abk": "SBB",
+                "zusatzfahrt_tf": "false",
+                "linien_text": "IC61",
+                "durchfahrt_tf": "false",
+                "ab_prognose": "2021-12-02T05:31:42",
+                "ankunftsverspatung": "false",
+                "faellt_aus_tf": "false",
+                "betreiber_name": "Schweizerische Bundesbahnen SBB",
+                "betriebstag": "2021-12-02"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.86900000435,
+                    46.6904999962
+                ]
+            },
+            "record_timestamp": "2021-12-03T04:08:14.593000+00:00"
+        }
+    ],
+    "facet_groups": [
+        {
+            "facets": [
+                {
+                    "count": 77,
+                    "path": "2021-12-02T11:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:24:00"
+                },
+                {
+                    "count": 76,
+                    "path": "2021-12-02T17:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:54:00"
+                },
+                {
+                    "count": 75,
+                    "path": "2021-12-02T10:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:24:00"
+                },
+                {
+                    "count": 75,
+                    "path": "2021-12-02T18:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:54:00"
+                },
+                {
+                    "count": 74,
+                    "path": "2021-12-02T09:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:24:00"
+                },
+                {
+                    "count": 73,
+                    "path": "2021-12-02T07:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:24:00"
+                },
+                {
+                    "count": 72,
+                    "path": "2021-12-02T11:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:59:00"
+                },
+                {
+                    "count": 72,
+                    "path": "2021-12-02T18:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:59:00"
+                },
+                {
+                    "count": 71,
+                    "path": "2021-12-02T07:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:59:00"
+                },
+                {
+                    "count": 71,
+                    "path": "2021-12-02T09:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:54:00"
+                },
+                {
+                    "count": 71,
+                    "path": "2021-12-02T15:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:24:00"
+                },
+                {
+                    "count": 70,
+                    "path": "2021-12-02T08:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:59:00"
+                },
+                {
+                    "count": 70,
+                    "path": "2021-12-02T19:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:59:00"
+                },
+                {
+                    "count": 68,
+                    "path": "2021-12-02T05:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:59:00"
+                },
+                {
+                    "count": 68,
+                    "path": "2021-12-02T14:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:24:00"
+                },
+                {
+                    "count": 68,
+                    "path": "2021-12-02T18:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:24:00"
+                },
+                {
+                    "count": 68,
+                    "path": "2021-12-02T20:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T20:24:00"
+                },
+                {
+                    "count": 67,
+                    "path": "2021-12-02T07:21:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:21:00"
+                },
+                {
+                    "count": 67,
+                    "path": "2021-12-02T13:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:24:00"
+                },
+                {
+                    "count": 67,
+                    "path": "2021-12-02T17:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:24:00"
+                },
+                {
+                    "count": 66,
+                    "path": "2021-12-02T06:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:59:00"
+                },
+                {
+                    "count": 66,
+                    "path": "2021-12-02T08:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:24:00"
+                },
+                {
+                    "count": 66,
+                    "path": "2021-12-02T13:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:59:00"
+                },
+                {
+                    "count": 66,
+                    "path": "2021-12-02T19:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:24:00"
+                },
+                {
+                    "count": 65,
+                    "path": "2021-12-02T12:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:24:00"
+                },
+                {
+                    "count": 65,
+                    "path": "2021-12-02T13:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:54:00"
+                },
+                {
+                    "count": 64,
+                    "path": "2021-12-02T06:52:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:52:00"
+                },
+                {
+                    "count": 64,
+                    "path": "2021-12-02T09:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:07:00"
+                },
+                {
+                    "count": 64,
+                    "path": "2021-12-02T16:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:24:00"
+                },
+                {
+                    "count": 64,
+                    "path": "2021-12-02T17:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:59:00"
+                },
+                {
+                    "count": 62,
+                    "path": "2021-12-02T07:41:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:41:00"
+                },
+                {
+                    "count": 62,
+                    "path": "2021-12-02T07:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:54:00"
+                },
+                {
+                    "count": 62,
+                    "path": "2021-12-02T15:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:59:00"
+                },
+                {
+                    "count": 62,
+                    "path": "2021-12-02T16:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:54:00"
+                },
+                {
+                    "count": 61,
+                    "path": "2021-12-02T06:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:24:00"
+                },
+                {
+                    "count": 61,
+                    "path": "2021-12-02T07:37:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:37:00"
+                },
+                {
+                    "count": 61,
+                    "path": "2021-12-02T16:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:29:00"
+                },
+                {
+                    "count": 61,
+                    "path": "2021-12-02T17:37:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:37:00"
+                },
+                {
+                    "count": 61,
+                    "path": "2021-12-02T19:32:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:32:00"
+                },
+                {
+                    "count": 60,
+                    "path": "2021-12-02T06:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:54:00"
+                },
+                {
+                    "count": 60,
+                    "path": "2021-12-02T12:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:59:00"
+                },
+                {
+                    "count": 59,
+                    "path": "2021-12-02T06:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:07:00"
+                },
+                {
+                    "count": 59,
+                    "path": "2021-12-02T06:39:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:39:00"
+                },
+                {
+                    "count": 59,
+                    "path": "2021-12-02T09:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:59:00"
+                },
+                {
+                    "count": 58,
+                    "path": "2021-12-02T11:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:54:00"
+                },
+                {
+                    "count": 58,
+                    "path": "2021-12-02T14:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:54:00"
+                },
+                {
+                    "count": 58,
+                    "path": "2021-12-02T15:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:54:00"
+                },
+                {
+                    "count": 58,
+                    "path": "2021-12-02T19:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:54:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T06:35:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:35:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T06:45:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:45:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T07:13:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:13:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T07:43:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:43:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T07:53:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:53:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T08:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:54:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T10:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:54:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T12:54:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:54:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T17:10:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:10:00"
+                },
+                {
+                    "count": 56,
+                    "path": "2021-12-02T18:50:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:50:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T06:21:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:21:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T06:37:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:37:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T07:32:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:32:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T09:13:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:13:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T16:52:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:52:00"
+                },
+                {
+                    "count": 55,
+                    "path": "2021-12-02T17:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:29:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T07:11:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:11:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T08:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:07:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T17:13:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:13:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T17:43:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:43:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T17:48:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T17:48:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T18:10:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:10:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T19:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:07:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T19:41:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:41:00"
+                },
+                {
+                    "count": 54,
+                    "path": "2021-12-02T21:24:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T21:24:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T06:11:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:11:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T07:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:29:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T07:58:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:58:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T08:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:29:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T10:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:07:00"
+                },
+                {
+                    "count": 53,
+                    "path": "2021-12-02T19:21:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:21:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T06:25:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:25:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T07:44:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:44:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T10:05:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:05:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T10:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:59:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T12:41:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:41:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T13:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:07:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T13:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:29:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T13:53:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:53:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T16:02:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:02:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T18:11:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:11:00"
+                },
+                {
+                    "count": 52,
+                    "path": "2021-12-02T18:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:29:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T06:28:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:28:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T06:38:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:38:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T07:10:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:10:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T07:38:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:38:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T08:21:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:21:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T08:52:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:52:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T10:29:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:29:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T14:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:59:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T16:05:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:05:00"
+                },
+                {
+                    "count": 51,
+                    "path": "2021-12-02T16:07:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:07:00"
+                }
+            ],
+            "name": "ankunftszeit"
+        },
+        {
+            "facets": [
+                {
+                    "count": 46077,
+                    "path": "S",
+                    "state": "displayed",
+                    "name": "S"
+                },
+                {
+                    "count": 5266,
+                    "path": "IR",
+                    "state": "displayed",
+                    "name": "IR"
+                },
+                {
+                    "count": 4879,
+                    "path": "R",
+                    "state": "displayed",
+                    "name": "R"
+                },
+                {
+                    "count": 4154,
+                    "path": "RE",
+                    "state": "displayed",
+                    "name": "RE"
+                },
+                {
+                    "count": 3164,
+                    "path": "IC",
+                    "state": "displayed",
+                    "name": "IC"
+                },
+                {
+                    "count": 646,
+                    "path": "TER",
+                    "state": "displayed",
+                    "name": "TER"
+                },
+                {
+                    "count": 383,
+                    "path": "EC",
+                    "state": "displayed",
+                    "name": "EC"
+                },
+                {
+                    "count": 199,
+                    "path": "ICE",
+                    "state": "displayed",
+                    "name": "ICE"
+                },
+                {
+                    "count": 57,
+                    "path": "TGV",
+                    "state": "displayed",
+                    "name": "TGV"
+                },
+                {
+                    "count": 36,
+                    "path": "RJX",
+                    "state": "displayed",
+                    "name": "RJX"
+                },
+                {
+                    "count": 26,
+                    "path": "TE2",
+                    "state": "displayed",
+                    "name": "TE2"
+                },
+                {
+                    "count": 19,
+                    "path": "NJ",
+                    "state": "displayed",
+                    "name": "NJ"
+                },
+                {
+                    "count": 13,
+                    "path": "EXT",
+                    "state": "displayed",
+                    "name": "EXT"
+                },
+                {
+                    "count": 2,
+                    "path": "RB",
+                    "state": "displayed",
+                    "name": "RB"
+                }
+            ],
+            "name": "verkehrsmittel_text"
+        },
+        {
+            "facets": [
+                {
+                    "count": 55583,
+                    "path": "false",
+                    "state": "displayed",
+                    "name": "false"
+                },
+                {
+                    "count": 9339,
+                    "path": "true",
+                    "state": "displayed",
+                    "name": "true"
+                }
+            ],
+            "name": "abfahrtsverspatung"
+        },
+        {
+            "facets": [
+                {
+                    "count": 1967,
+                    "path": "8503000",
+                    "state": "displayed",
+                    "name": "8503000"
+                },
+                {
+                    "count": 945,
+                    "path": "8503006",
+                    "state": "displayed",
+                    "name": "8503006"
+                },
+                {
+                    "count": 779,
+                    "path": "8500218",
+                    "state": "displayed",
+                    "name": "8500218"
+                },
+                {
+                    "count": 698,
+                    "path": "8503020",
+                    "state": "displayed",
+                    "name": "8503020"
+                },
+                {
+                    "count": 695,
+                    "path": "8501120",
+                    "state": "displayed",
+                    "name": "8501120"
+                },
+                {
+                    "count": 690,
+                    "path": "8503003",
+                    "state": "displayed",
+                    "name": "8503003"
+                },
+                {
+                    "count": 674,
+                    "path": "8500010",
+                    "state": "displayed",
+                    "name": "8500010"
+                },
+                {
+                    "count": 653,
+                    "path": "8501008",
+                    "state": "displayed",
+                    "name": "8501008"
+                },
+                {
+                    "count": 628,
+                    "path": "8506000",
+                    "state": "displayed",
+                    "name": "8506000"
+                },
+                {
+                    "count": 499,
+                    "path": "8502204",
+                    "state": "displayed",
+                    "name": "8502204"
+                },
+                {
+                    "count": 483,
+                    "path": "8503016",
+                    "state": "displayed",
+                    "name": "8503016"
+                },
+                {
+                    "count": 448,
+                    "path": "8503001",
+                    "state": "displayed",
+                    "name": "8503001"
+                },
+                {
+                    "count": 428,
+                    "path": "8503504",
+                    "state": "displayed",
+                    "name": "8503504"
+                },
+                {
+                    "count": 426,
+                    "path": "8505000",
+                    "state": "displayed",
+                    "name": "8505000"
+                },
+                {
+                    "count": 405,
+                    "path": "8502113",
+                    "state": "displayed",
+                    "name": "8502113"
+                },
+                {
+                    "count": 399,
+                    "path": "8502119",
+                    "state": "displayed",
+                    "name": "8502119"
+                },
+                {
+                    "count": 381,
+                    "path": "8503305",
+                    "state": "displayed",
+                    "name": "8503305"
+                },
+                {
+                    "count": 379,
+                    "path": "8500309",
+                    "state": "displayed",
+                    "name": "8500309"
+                },
+                {
+                    "count": 363,
+                    "path": "8504300",
+                    "state": "displayed",
+                    "name": "8504300"
+                },
+                {
+                    "count": 334,
+                    "path": "8501200",
+                    "state": "displayed",
+                    "name": "8501200"
+                },
+                {
+                    "count": 326,
+                    "path": "8505305",
+                    "state": "displayed",
+                    "name": "8505305"
+                },
+                {
+                    "count": 320,
+                    "path": "8503202",
+                    "state": "displayed",
+                    "name": "8503202"
+                },
+                {
+                    "count": 320,
+                    "path": "8503503",
+                    "state": "displayed",
+                    "name": "8503503"
+                },
+                {
+                    "count": 315,
+                    "path": "8501037",
+                    "state": "displayed",
+                    "name": "8501037"
+                },
+                {
+                    "count": 304,
+                    "path": "8503123",
+                    "state": "displayed",
+                    "name": "8503123"
+                },
+                {
+                    "count": 303,
+                    "path": "8501118",
+                    "state": "displayed",
+                    "name": "8501118"
+                },
+                {
+                    "count": 303,
+                    "path": "8503125",
+                    "state": "displayed",
+                    "name": "8503125"
+                },
+                {
+                    "count": 297,
+                    "path": "8503147",
+                    "state": "displayed",
+                    "name": "8503147"
+                },
+                {
+                    "count": 297,
+                    "path": "8507000",
+                    "state": "displayed",
+                    "name": "8507000"
+                },
+                {
+                    "count": 296,
+                    "path": "8503209",
+                    "state": "displayed",
+                    "name": "8503209"
+                },
+                {
+                    "count": 290,
+                    "path": "8505300",
+                    "state": "displayed",
+                    "name": "8505300"
+                },
+                {
+                    "count": 281,
+                    "path": "8501300",
+                    "state": "displayed",
+                    "name": "8501300"
+                },
+                {
+                    "count": 271,
+                    "path": "8503424",
+                    "state": "displayed",
+                    "name": "8503424"
+                },
+                {
+                    "count": 267,
+                    "path": "8501400",
+                    "state": "displayed",
+                    "name": "8501400"
+                },
+                {
+                    "count": 265,
+                    "path": "8502202",
+                    "state": "displayed",
+                    "name": "8502202"
+                },
+                {
+                    "count": 262,
+                    "path": "8502206",
+                    "state": "displayed",
+                    "name": "8502206"
+                },
+                {
+                    "count": 262,
+                    "path": "8504221",
+                    "state": "displayed",
+                    "name": "8504221"
+                },
+                {
+                    "count": 261,
+                    "path": "8503508",
+                    "state": "displayed",
+                    "name": "8503508"
+                },
+                {
+                    "count": 259,
+                    "path": "8502001",
+                    "state": "displayed",
+                    "name": "8502001"
+                },
+                {
+                    "count": 249,
+                    "path": "8503010",
+                    "state": "displayed",
+                    "name": "8503010"
+                },
+                {
+                    "count": 248,
+                    "path": "8501026",
+                    "state": "displayed",
+                    "name": "8501026"
+                },
+                {
+                    "count": 244,
+                    "path": "8505214",
+                    "state": "displayed",
+                    "name": "8505214"
+                },
+                {
+                    "count": 243,
+                    "path": "8503011",
+                    "state": "displayed",
+                    "name": "8503011"
+                },
+                {
+                    "count": 242,
+                    "path": "8504200",
+                    "state": "displayed",
+                    "name": "8504200"
+                },
+                {
+                    "count": 239,
+                    "path": "8501023",
+                    "state": "displayed",
+                    "name": "8501023"
+                },
+                {
+                    "count": 234,
+                    "path": "8505213",
+                    "state": "displayed",
+                    "name": "8505213"
+                },
+                {
+                    "count": 233,
+                    "path": "8502007",
+                    "state": "displayed",
+                    "name": "8502007"
+                },
+                {
+                    "count": 233,
+                    "path": "8503110",
+                    "state": "displayed",
+                    "name": "8503110"
+                },
+                {
+                    "count": 232,
+                    "path": "8500207",
+                    "state": "displayed",
+                    "name": "8500207"
+                },
+                {
+                    "count": 232,
+                    "path": "8503206",
+                    "state": "displayed",
+                    "name": "8503206"
+                },
+                {
+                    "count": 227,
+                    "path": "8503129",
+                    "state": "displayed",
+                    "name": "8503129"
+                },
+                {
+                    "count": 227,
+                    "path": "8504100",
+                    "state": "displayed",
+                    "name": "8504100"
+                },
+                {
+                    "count": 226,
+                    "path": "8503306",
+                    "state": "displayed",
+                    "name": "8503306"
+                },
+                {
+                    "count": 225,
+                    "path": "8516155",
+                    "state": "displayed",
+                    "name": "8516155"
+                },
+                {
+                    "count": 224,
+                    "path": "8516273",
+                    "state": "displayed",
+                    "name": "8516273"
+                },
+                {
+                    "count": 217,
+                    "path": "8501609",
+                    "state": "displayed",
+                    "name": "8501609"
+                },
+                {
+                    "count": 210,
+                    "path": "8505307",
+                    "state": "displayed",
+                    "name": "8505307"
+                },
+                {
+                    "count": 206,
+                    "path": "8515993",
+                    "state": "displayed",
+                    "name": "8515993"
+                },
+                {
+                    "count": 205,
+                    "path": "8503505",
+                    "state": "displayed",
+                    "name": "8503505"
+                },
+                {
+                    "count": 202,
+                    "path": "8500023",
+                    "state": "displayed",
+                    "name": "8500023"
+                },
+                {
+                    "count": 202,
+                    "path": "8502021",
+                    "state": "displayed",
+                    "name": "8502021"
+                },
+                {
+                    "count": 199,
+                    "path": "8500026",
+                    "state": "displayed",
+                    "name": "8500026"
+                },
+                {
+                    "count": 198,
+                    "path": "8501605",
+                    "state": "displayed",
+                    "name": "8501605"
+                },
+                {
+                    "count": 195,
+                    "path": "8501030",
+                    "state": "displayed",
+                    "name": "8501030"
+                },
+                {
+                    "count": 194,
+                    "path": "8504314",
+                    "state": "displayed",
+                    "name": "8504314"
+                },
+                {
+                    "count": 187,
+                    "path": "8504014",
+                    "state": "displayed",
+                    "name": "8504014"
+                },
+                {
+                    "count": 181,
+                    "path": "8505301",
+                    "state": "displayed",
+                    "name": "8505301"
+                },
+                {
+                    "count": 177,
+                    "path": "8500212",
+                    "state": "displayed",
+                    "name": "8500212"
+                },
+                {
+                    "count": 176,
+                    "path": "8500021",
+                    "state": "displayed",
+                    "name": "8500021"
+                },
+                {
+                    "count": 175,
+                    "path": "8500020",
+                    "state": "displayed",
+                    "name": "8500020"
+                },
+                {
+                    "count": 172,
+                    "path": "8505404",
+                    "state": "displayed",
+                    "name": "8505404"
+                },
+                {
+                    "count": 166,
+                    "path": "8503009",
+                    "state": "displayed",
+                    "name": "8503009"
+                },
+                {
+                    "count": 166,
+                    "path": "8503200",
+                    "state": "displayed",
+                    "name": "8503200"
+                },
+                {
+                    "count": 166,
+                    "path": "8503201",
+                    "state": "displayed",
+                    "name": "8503201"
+                },
+                {
+                    "count": 166,
+                    "path": "8503204",
+                    "state": "displayed",
+                    "name": "8503204"
+                },
+                {
+                    "count": 166,
+                    "path": "8503207",
+                    "state": "displayed",
+                    "name": "8503207"
+                },
+                {
+                    "count": 166,
+                    "path": "8503423",
+                    "state": "displayed",
+                    "name": "8503423"
+                },
+                {
+                    "count": 165,
+                    "path": "8501035",
+                    "state": "displayed",
+                    "name": "8501035"
+                },
+                {
+                    "count": 164,
+                    "path": "8501506",
+                    "state": "displayed",
+                    "name": "8501506"
+                },
+                {
+                    "count": 164,
+                    "path": "8503310",
+                    "state": "displayed",
+                    "name": "8503310"
+                },
+                {
+                    "count": 162,
+                    "path": "8505212",
+                    "state": "displayed",
+                    "name": "8505212"
+                },
+                {
+                    "count": 162,
+                    "path": "8516272",
+                    "state": "displayed",
+                    "name": "8516272"
+                },
+                {
+                    "count": 162,
+                    "path": "8517142",
+                    "state": "displayed",
+                    "name": "8517142"
+                },
+                {
+                    "count": 161,
+                    "path": "8501022",
+                    "state": "displayed",
+                    "name": "8501022"
+                },
+                {
+                    "count": 161,
+                    "path": "8503104",
+                    "state": "displayed",
+                    "name": "8503104"
+                },
+                {
+                    "count": 161,
+                    "path": "8504304",
+                    "state": "displayed",
+                    "name": "8504304"
+                },
+                {
+                    "count": 161,
+                    "path": "8505415",
+                    "state": "displayed",
+                    "name": "8505415"
+                },
+                {
+                    "count": 161,
+                    "path": "8516274",
+                    "state": "displayed",
+                    "name": "8516274"
+                },
+                {
+                    "count": 160,
+                    "path": "8505400",
+                    "state": "displayed",
+                    "name": "8505400"
+                },
+                {
+                    "count": 160,
+                    "path": "8505401",
+                    "state": "displayed",
+                    "name": "8505401"
+                },
+                {
+                    "count": 160,
+                    "path": "8505402",
+                    "state": "displayed",
+                    "name": "8505402"
+                },
+                {
+                    "count": 160,
+                    "path": "8505412",
+                    "state": "displayed",
+                    "name": "8505412"
+                },
+                {
+                    "count": 159,
+                    "path": "8500301",
+                    "state": "displayed",
+                    "name": "8500301"
+                },
+                {
+                    "count": 159,
+                    "path": "8502028",
+                    "state": "displayed",
+                    "name": "8502028"
+                },
+                {
+                    "count": 159,
+                    "path": "8505004",
+                    "state": "displayed",
+                    "name": "8505004"
+                },
+                {
+                    "count": 158,
+                    "path": "8501011",
+                    "state": "displayed",
+                    "name": "8501011"
+                },
+                {
+                    "count": 158,
+                    "path": "8501012",
+                    "state": "displayed",
+                    "name": "8501012"
+                },
+                {
+                    "count": 158,
+                    "path": "8501020",
+                    "state": "displayed",
+                    "name": "8501020"
+                },
+                {
+                    "count": 158,
+                    "path": "8501021",
+                    "state": "displayed",
+                    "name": "8501021"
+                },
+                {
+                    "count": 157,
+                    "path": "8501013",
+                    "state": "displayed",
+                    "name": "8501013"
+                }
+            ],
+            "name": "bpuic"
+        },
+        {
+            "facets": [
+                {
+                    "count": 64922,
+                    "path": "85:11",
+                    "state": "displayed",
+                    "name": "85:11"
+                }
+            ],
+            "name": "betreiber_id"
+        },
+        {
+            "facets": [
+                {
+                    "count": 64755,
+                    "path": "Zug",
+                    "state": "displayed",
+                    "name": "Zug"
+                }
+            ],
+            "name": "produkt_id"
+        },
+        {
+            "facets": [
+                {
+                    "count": 55492,
+                    "path": "REAL",
+                    "state": "displayed",
+                    "name": "REAL"
+                },
+                {
+                    "count": 2799,
+                    "path": "UNBEKANNT",
+                    "state": "displayed",
+                    "name": "UNBEKANNT"
+                },
+                {
+                    "count": 1544,
+                    "path": "PROGNOSE",
+                    "state": "displayed",
+                    "name": "PROGNOSE"
+                }
+            ],
+            "name": "ab_prognose_status"
+        },
+        {
+            "facets": [
+                {
+                    "count": 62128,
+                    "path": "false",
+                    "state": "displayed",
+                    "name": "false"
+                },
+                {
+                    "count": 2794,
+                    "path": "true",
+                    "state": "displayed",
+                    "name": "true"
+                }
+            ],
+            "name": "faellt_aus_tf"
+        },
+        {
+            "facets": [
+                {
+                    "count": 4879,
+                    "path": "R",
+                    "state": "displayed",
+                    "name": "R"
+                },
+                {
+                    "count": 4216,
+                    "path": "S9",
+                    "state": "displayed",
+                    "name": "S9"
+                },
+                {
+                    "count": 4030,
+                    "path": "S1",
+                    "state": "displayed",
+                    "name": "S1"
+                },
+                {
+                    "count": 3745,
+                    "path": "S3",
+                    "state": "displayed",
+                    "name": "S3"
+                },
+                {
+                    "count": 3386,
+                    "path": "RE",
+                    "state": "displayed",
+                    "name": "RE"
+                },
+                {
+                    "count": 2826,
+                    "path": "S2",
+                    "state": "displayed",
+                    "name": "S2"
+                },
+                {
+                    "count": 2598,
+                    "path": "S5",
+                    "state": "displayed",
+                    "name": "S5"
+                },
+                {
+                    "count": 2021,
+                    "path": "S8",
+                    "state": "displayed",
+                    "name": "S8"
+                },
+                {
+                    "count": 1824,
+                    "path": "S6",
+                    "state": "displayed",
+                    "name": "S6"
+                },
+                {
+                    "count": 1800,
+                    "path": "S12",
+                    "state": "displayed",
+                    "name": "S12"
+                },
+                {
+                    "count": 1762,
+                    "path": "S24",
+                    "state": "displayed",
+                    "name": "S24"
+                },
+                {
+                    "count": 1742,
+                    "path": "IR90",
+                    "state": "displayed",
+                    "name": "IR90"
+                },
+                {
+                    "count": 1627,
+                    "path": "S7",
+                    "state": "displayed",
+                    "name": "S7"
+                },
+                {
+                    "count": 1427,
+                    "path": "SL4",
+                    "state": "displayed",
+                    "name": "SL4"
+                },
+                {
+                    "count": 1413,
+                    "path": "S15",
+                    "state": "displayed",
+                    "name": "S15"
+                },
+                {
+                    "count": 1321,
+                    "path": "S11",
+                    "state": "displayed",
+                    "name": "S11"
+                },
+                {
+                    "count": 1243,
+                    "path": "S14",
+                    "state": "displayed",
+                    "name": "S14"
+                },
+                {
+                    "count": 1174,
+                    "path": "S30",
+                    "state": "displayed",
+                    "name": "S30"
+                },
+                {
+                    "count": 1163,
+                    "path": "S10",
+                    "state": "displayed",
+                    "name": "S10"
+                },
+                {
+                    "count": 1084,
+                    "path": "S29",
+                    "state": "displayed",
+                    "name": "S29"
+                },
+                {
+                    "count": 1059,
+                    "path": "S26",
+                    "state": "displayed",
+                    "name": "S26"
+                },
+                {
+                    "count": 968,
+                    "path": "S16",
+                    "state": "displayed",
+                    "name": "S16"
+                },
+                {
+                    "count": 900,
+                    "path": "S23",
+                    "state": "displayed",
+                    "name": "S23"
+                },
+                {
+                    "count": 897,
+                    "path": "S25",
+                    "state": "displayed",
+                    "name": "S25"
+                },
+                {
+                    "count": 833,
+                    "path": "IC5",
+                    "state": "displayed",
+                    "name": "IC5"
+                },
+                {
+                    "count": 812,
+                    "path": "S20",
+                    "state": "displayed",
+                    "name": "S20"
+                },
+                {
+                    "count": 763,
+                    "path": "RE80",
+                    "state": "displayed",
+                    "name": "RE80"
+                },
+                {
+                    "count": 756,
+                    "path": "S40",
+                    "state": "displayed",
+                    "name": "S40"
+                },
+                {
+                    "count": 660,
+                    "path": "S28",
+                    "state": "displayed",
+                    "name": "S28"
+                },
+                {
+                    "count": 658,
+                    "path": "IR13",
+                    "state": "displayed",
+                    "name": "IR13"
+                },
+                {
+                    "count": 646,
+                    "path": "TER",
+                    "state": "displayed",
+                    "name": "TER"
+                },
+                {
+                    "count": 638,
+                    "path": "IC1",
+                    "state": "displayed",
+                    "name": "IC1"
+                },
+                {
+                    "count": 629,
+                    "path": "S90",
+                    "state": "displayed",
+                    "name": "S90"
+                },
+                {
+                    "count": 591,
+                    "path": "IR36",
+                    "state": "displayed",
+                    "name": "IR36"
+                },
+                {
+                    "count": 586,
+                    "path": "S27",
+                    "state": "displayed",
+                    "name": "S27"
+                },
+                {
+                    "count": 562,
+                    "path": "S19",
+                    "state": "displayed",
+                    "name": "S19"
+                },
+                {
+                    "count": 498,
+                    "path": "S4",
+                    "state": "displayed",
+                    "name": "S4"
+                },
+                {
+                    "count": 486,
+                    "path": "IC8",
+                    "state": "displayed",
+                    "name": "IC8"
+                },
+                {
+                    "count": 481,
+                    "path": "SL5",
+                    "state": "displayed",
+                    "name": "SL5"
+                },
+                {
+                    "count": 415,
+                    "path": "IR15",
+                    "state": "displayed",
+                    "name": "IR15"
+                },
+                {
+                    "count": 400,
+                    "path": "SL1",
+                    "state": "displayed",
+                    "name": "SL1"
+                },
+                {
+                    "count": 393,
+                    "path": "IR75",
+                    "state": "displayed",
+                    "name": "IR75"
+                },
+                {
+                    "count": 383,
+                    "path": "EC",
+                    "state": "displayed",
+                    "name": "EC"
+                },
+                {
+                    "count": 366,
+                    "path": "IR",
+                    "state": "displayed",
+                    "name": "IR"
+                },
+                {
+                    "count": 348,
+                    "path": "IC61",
+                    "state": "displayed",
+                    "name": "IC61"
+                },
+                {
+                    "count": 342,
+                    "path": "S33",
+                    "state": "displayed",
+                    "name": "S33"
+                },
+                {
+                    "count": 262,
+                    "path": "IR27",
+                    "state": "displayed",
+                    "name": "IR27"
+                },
+                {
+                    "count": 251,
+                    "path": "SL2",
+                    "state": "displayed",
+                    "name": "SL2"
+                },
+                {
+                    "count": 248,
+                    "path": "IR35",
+                    "state": "displayed",
+                    "name": "IR35"
+                },
+                {
+                    "count": 245,
+                    "path": "S",
+                    "state": "displayed",
+                    "name": "S"
+                },
+                {
+                    "count": 244,
+                    "path": "SL3",
+                    "state": "displayed",
+                    "name": "SL3"
+                },
+                {
+                    "count": 238,
+                    "path": "IC3",
+                    "state": "displayed",
+                    "name": "IC3"
+                },
+                {
+                    "count": 229,
+                    "path": "IR37",
+                    "state": "displayed",
+                    "name": "IR37"
+                },
+                {
+                    "count": 218,
+                    "path": "IR16",
+                    "state": "displayed",
+                    "name": "IR16"
+                },
+                {
+                    "count": 213,
+                    "path": "IC51",
+                    "state": "displayed",
+                    "name": "IC51"
+                },
+                {
+                    "count": 199,
+                    "path": "ICE",
+                    "state": "displayed",
+                    "name": "ICE"
+                },
+                {
+                    "count": 129,
+                    "path": "S42",
+                    "state": "displayed",
+                    "name": "S42"
+                },
+                {
+                    "count": 120,
+                    "path": "S50",
+                    "state": "displayed",
+                    "name": "S50"
+                },
+                {
+                    "count": 117,
+                    "path": "IR70",
+                    "state": "displayed",
+                    "name": "IR70"
+                },
+                {
+                    "count": 109,
+                    "path": "IC6",
+                    "state": "displayed",
+                    "name": "IC6"
+                },
+                {
+                    "count": 106,
+                    "path": "S22",
+                    "state": "displayed",
+                    "name": "S22"
+                },
+                {
+                    "count": 96,
+                    "path": "IC21",
+                    "state": "displayed",
+                    "name": "IC21"
+                },
+                {
+                    "count": 94,
+                    "path": "IC2",
+                    "state": "displayed",
+                    "name": "IC2"
+                },
+                {
+                    "count": 73,
+                    "path": "S21",
+                    "state": "displayed",
+                    "name": "S21"
+                },
+                {
+                    "count": 71,
+                    "path": "IC",
+                    "state": "displayed",
+                    "name": "IC"
+                },
+                {
+                    "count": 57,
+                    "path": "TGV",
+                    "state": "displayed",
+                    "name": "TGV"
+                },
+                {
+                    "count": 50,
+                    "path": "SL6",
+                    "state": "displayed",
+                    "name": "SL6"
+                },
+                {
+                    "count": 38,
+                    "path": "IC4",
+                    "state": "displayed",
+                    "name": "IC4"
+                },
+                {
+                    "count": 36,
+                    "path": "RJX",
+                    "state": "displayed",
+                    "name": "RJX"
+                },
+                {
+                    "count": 35,
+                    "path": "S99",
+                    "state": "displayed",
+                    "name": "S99"
+                },
+                {
+                    "count": 26,
+                    "path": "TE2",
+                    "state": "displayed",
+                    "name": "TE2"
+                },
+                {
+                    "count": 24,
+                    "path": "IR17",
+                    "state": "displayed",
+                    "name": "IR17"
+                },
+                {
+                    "count": 19,
+                    "path": "NJ",
+                    "state": "displayed",
+                    "name": "NJ"
+                },
+                {
+                    "count": 13,
+                    "path": "EXT",
+                    "state": "displayed",
+                    "name": "EXT"
+                },
+                {
+                    "count": 5,
+                    "path": "RE10",
+                    "state": "displayed",
+                    "name": "RE10"
+                },
+                {
+                    "count": 3,
+                    "path": "IR26",
+                    "state": "displayed",
+                    "name": "IR26"
+                },
+                {
+                    "count": 2,
+                    "path": "RB",
+                    "state": "displayed",
+                    "name": "RB"
+                }
+            ],
+            "name": "linien_text"
+        },
+        {
+            "facets": [
+                {
+                    "count": 6,
+                    "path": "2021-12-02T13:47:27",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:47:27"
+                },
+                {
+                    "count": 6,
+                    "path": "2021-12-02T18:42:40",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:42:40"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T06:56:46",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:56:46"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T07:17:22",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:17:22"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T10:59:09",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:59:09"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T11:05:32",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:05:32"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T14:32:46",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:32:46"
+                },
+                {
+                    "count": 5,
+                    "path": "2021-12-02T15:11:47",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:11:47"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T05:40:40",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:40:40"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T05:54:12",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:54:12"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T05:58:21",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:58:21"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:09:30",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:09:30"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:29:56",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:29:56"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:49:07",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:49:07"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:49:10",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:49:10"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:57:49",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:57:49"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:59:00",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:59:00"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T06:59:46",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:59:46"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:03:14",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:03:14"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:11:18",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:11:18"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:13:07",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:13:07"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:17:10",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:17:10"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:23:33",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:23:33"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:31:25",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:31:25"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T07:57:16",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:57:16"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:03:09",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:03:09"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:09:37",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:09:37"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:22:07",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:22:07"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:40:33",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:40:33"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:43:46",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:43:46"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T08:48:14",
+                    "state": "displayed",
+                    "name": "2021-12-02T08:48:14"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:01:21",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:01:21"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:03:14",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:03:14"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:05:05",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:05:05"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:10:36",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:10:36"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:28:45",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:28:45"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:39:41",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:39:41"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T09:55:19",
+                    "state": "displayed",
+                    "name": "2021-12-02T09:55:19"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:18:01",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:18:01"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:19:40",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:19:40"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:26:25",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:26:25"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:28:32",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:28:32"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:36:30",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:36:30"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:40:01",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:40:01"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T10:51:47",
+                    "state": "displayed",
+                    "name": "2021-12-02T10:51:47"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:01:55",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:01:55"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:11:38",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:11:38"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:18:42",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:18:42"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:23:34",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:23:34"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:34:32",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:34:32"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T11:41:11",
+                    "state": "displayed",
+                    "name": "2021-12-02T11:41:11"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:03:48",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:03:48"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:06:20",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:06:20"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:10:44",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:10:44"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:11:42",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:11:42"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:21:53",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:21:53"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:25:28",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:25:28"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:29:17",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:29:17"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T12:48:27",
+                    "state": "displayed",
+                    "name": "2021-12-02T12:48:27"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:00:02",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:00:02"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:05:49",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:05:49"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:18:46",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:18:46"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:25:19",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:25:19"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:26:13",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:26:13"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T13:39:15",
+                    "state": "displayed",
+                    "name": "2021-12-02T13:39:15"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T14:03:25",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:03:25"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T14:09:08",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:09:08"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T14:21:38",
+                    "state": "displayed",
+                    "name": "2021-12-02T14:21:38"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T15:05:03",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:05:03"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T15:34:56",
+                    "state": "displayed",
+                    "name": "2021-12-02T15:34:56"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T16:04:13",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:04:13"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T16:54:43",
+                    "state": "displayed",
+                    "name": "2021-12-02T16:54:43"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T18:10:36",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:10:36"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T18:27:47",
+                    "state": "displayed",
+                    "name": "2021-12-02T18:27:47"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T19:15:48",
+                    "state": "displayed",
+                    "name": "2021-12-02T19:15:48"
+                },
+                {
+                    "count": 4,
+                    "path": "2021-12-02T20:10:06",
+                    "state": "displayed",
+                    "name": "2021-12-02T20:10:06"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T05:29:12",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:29:12"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T05:37:57",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:37:57"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T05:51:03",
+                    "state": "displayed",
+                    "name": "2021-12-02T05:51:03"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:00:10",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:00:10"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:05:24",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:05:24"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:08:59",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:08:59"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:10:21",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:10:21"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:11:44",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:11:44"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:20:12",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:20:12"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:21:31",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:21:31"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:22:24",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:22:24"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:29:05",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:29:05"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:35:06",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:35:06"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:36:18",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:36:18"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:40:06",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:40:06"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T06:52:59",
+                    "state": "displayed",
+                    "name": "2021-12-02T06:52:59"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:01:42",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:01:42"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:03:25",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:03:25"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:09:26",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:09:26"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:19:55",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:19:55"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:20:12",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:20:12"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:22:33",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:22:33"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:25:29",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:25:29"
+                },
+                {
+                    "count": 3,
+                    "path": "2021-12-02T07:26:42",
+                    "state": "displayed",
+                    "name": "2021-12-02T07:26:42"
+                }
+            ],
+            "name": "an_prognose"
+        },
+        {
+            "facets": [
+                {
+                    "count": 57742,
+                    "path": "false",
+                    "state": "displayed",
+                    "name": "false"
+                },
+                {
+                    "count": 7180,
+                    "path": "true",
+                    "state": "displayed",
+                    "name": "true"
+                }
+            ],
+            "name": "ankunftsverspatung"
+        },
+        {
+            "facets": [
+                {
+                    "count": 30,
+                    "path": "96915",
+                    "state": "displayed",
+                    "name": "96915"
+                },
+                {
+                    "count": 27,
+                    "path": "17326",
+                    "state": "displayed",
+                    "name": "17326"
+                },
+                {
+                    "count": 26,
+                    "path": "17351",
+                    "state": "displayed",
+                    "name": "17351"
+                },
+                {
+                    "count": 26,
+                    "path": "17363",
+                    "state": "displayed",
+                    "name": "17363"
+                },
+                {
+                    "count": 26,
+                    "path": "17386",
+                    "state": "displayed",
+                    "name": "17386"
+                },
+                {
+                    "count": 25,
+                    "path": "17322",
+                    "state": "displayed",
+                    "name": "17322"
+                },
+                {
+                    "count": 25,
+                    "path": "17343",
+                    "state": "displayed",
+                    "name": "17343"
+                },
+                {
+                    "count": 25,
+                    "path": "17350",
+                    "state": "displayed",
+                    "name": "17350"
+                },
+                {
+                    "count": 24,
+                    "path": "14192",
+                    "state": "displayed",
+                    "name": "14192"
+                },
+                {
+                    "count": 24,
+                    "path": "17318",
+                    "state": "displayed",
+                    "name": "17318"
+                },
+                {
+                    "count": 24,
+                    "path": "17319",
+                    "state": "displayed",
+                    "name": "17319"
+                },
+                {
+                    "count": 24,
+                    "path": "17358",
+                    "state": "displayed",
+                    "name": "17358"
+                },
+                {
+                    "count": 23,
+                    "path": "14193",
+                    "state": "displayed",
+                    "name": "14193"
+                },
+                {
+                    "count": 23,
+                    "path": "17323",
+                    "state": "displayed",
+                    "name": "17323"
+                },
+                {
+                    "count": 23,
+                    "path": "17331",
+                    "state": "displayed",
+                    "name": "17331"
+                },
+                {
+                    "count": 23,
+                    "path": "17387",
+                    "state": "displayed",
+                    "name": "17387"
+                },
+                {
+                    "count": 23,
+                    "path": "20479",
+                    "state": "displayed",
+                    "name": "20479"
+                },
+                {
+                    "count": 22,
+                    "path": "18525",
+                    "state": "displayed",
+                    "name": "18525"
+                },
+                {
+                    "count": 22,
+                    "path": "24565",
+                    "state": "displayed",
+                    "name": "24565"
+                },
+                {
+                    "count": 21,
+                    "path": "7827",
+                    "state": "displayed",
+                    "name": "7827"
+                },
+                {
+                    "count": 21,
+                    "path": "7837",
+                    "state": "displayed",
+                    "name": "7837"
+                },
+                {
+                    "count": 21,
+                    "path": "17314",
+                    "state": "displayed",
+                    "name": "17314"
+                },
+                {
+                    "count": 21,
+                    "path": "17339",
+                    "state": "displayed",
+                    "name": "17339"
+                },
+                {
+                    "count": 21,
+                    "path": "17371",
+                    "state": "displayed",
+                    "name": "17371"
+                },
+                {
+                    "count": 21,
+                    "path": "17374",
+                    "state": "displayed",
+                    "name": "17374"
+                },
+                {
+                    "count": 21,
+                    "path": "17383",
+                    "state": "displayed",
+                    "name": "17383"
+                },
+                {
+                    "count": 21,
+                    "path": "19219",
+                    "state": "displayed",
+                    "name": "19219"
+                },
+                {
+                    "count": 21,
+                    "path": "19220",
+                    "state": "displayed",
+                    "name": "19220"
+                },
+                {
+                    "count": 21,
+                    "path": "20439",
+                    "state": "displayed",
+                    "name": "20439"
+                },
+                {
+                    "count": 21,
+                    "path": "20483",
+                    "state": "displayed",
+                    "name": "20483"
+                },
+                {
+                    "count": 21,
+                    "path": "96917",
+                    "state": "displayed",
+                    "name": "96917"
+                },
+                {
+                    "count": 20,
+                    "path": "7819",
+                    "state": "displayed",
+                    "name": "7819"
+                },
+                {
+                    "count": 20,
+                    "path": "14016",
+                    "state": "displayed",
+                    "name": "14016"
+                },
+                {
+                    "count": 20,
+                    "path": "17334",
+                    "state": "displayed",
+                    "name": "17334"
+                },
+                {
+                    "count": 20,
+                    "path": "17335",
+                    "state": "displayed",
+                    "name": "17335"
+                },
+                {
+                    "count": 20,
+                    "path": "17342",
+                    "state": "displayed",
+                    "name": "17342"
+                },
+                {
+                    "count": 20,
+                    "path": "17346",
+                    "state": "displayed",
+                    "name": "17346"
+                },
+                {
+                    "count": 20,
+                    "path": "17355",
+                    "state": "displayed",
+                    "name": "17355"
+                },
+                {
+                    "count": 20,
+                    "path": "17367",
+                    "state": "displayed",
+                    "name": "17367"
+                },
+                {
+                    "count": 20,
+                    "path": "17379",
+                    "state": "displayed",
+                    "name": "17379"
+                },
+                {
+                    "count": 20,
+                    "path": "18967",
+                    "state": "displayed",
+                    "name": "18967"
+                },
+                {
+                    "count": 20,
+                    "path": "19130",
+                    "state": "displayed",
+                    "name": "19130"
+                },
+                {
+                    "count": 20,
+                    "path": "19243",
+                    "state": "displayed",
+                    "name": "19243"
+                },
+                {
+                    "count": 20,
+                    "path": "19282",
+                    "state": "displayed",
+                    "name": "19282"
+                },
+                {
+                    "count": 20,
+                    "path": "20435",
+                    "state": "displayed",
+                    "name": "20435"
+                },
+                {
+                    "count": 20,
+                    "path": "20468",
+                    "state": "displayed",
+                    "name": "20468"
+                },
+                {
+                    "count": 20,
+                    "path": "20472",
+                    "state": "displayed",
+                    "name": "20472"
+                },
+                {
+                    "count": 20,
+                    "path": "24518",
+                    "state": "displayed",
+                    "name": "24518"
+                },
+                {
+                    "count": 19,
+                    "path": "7808",
+                    "state": "displayed",
+                    "name": "7808"
+                },
+                {
+                    "count": 19,
+                    "path": "7815",
+                    "state": "displayed",
+                    "name": "7815"
+                },
+                {
+                    "count": 19,
+                    "path": "7844",
+                    "state": "displayed",
+                    "name": "7844"
+                },
+                {
+                    "count": 19,
+                    "path": "17330",
+                    "state": "displayed",
+                    "name": "17330"
+                },
+                {
+                    "count": 19,
+                    "path": "17338",
+                    "state": "displayed",
+                    "name": "17338"
+                },
+                {
+                    "count": 19,
+                    "path": "17354",
+                    "state": "displayed",
+                    "name": "17354"
+                },
+                {
+                    "count": 19,
+                    "path": "17366",
+                    "state": "displayed",
+                    "name": "17366"
+                },
+                {
+                    "count": 19,
+                    "path": "17375",
+                    "state": "displayed",
+                    "name": "17375"
+                },
+                {
+                    "count": 19,
+                    "path": "17391",
+                    "state": "displayed",
+                    "name": "17391"
+                },
+                {
+                    "count": 19,
+                    "path": "18531",
+                    "state": "displayed",
+                    "name": "18531"
+                },
+                {
+                    "count": 19,
+                    "path": "18540",
+                    "state": "displayed",
+                    "name": "18540"
+                },
+                {
+                    "count": 19,
+                    "path": "18567",
+                    "state": "displayed",
+                    "name": "18567"
+                },
+                {
+                    "count": 19,
+                    "path": "18679",
+                    "state": "displayed",
+                    "name": "18679"
+                },
+                {
+                    "count": 19,
+                    "path": "20428",
+                    "state": "displayed",
+                    "name": "20428"
+                },
+                {
+                    "count": 19,
+                    "path": "20431",
+                    "state": "displayed",
+                    "name": "20431"
+                },
+                {
+                    "count": 19,
+                    "path": "21127",
+                    "state": "displayed",
+                    "name": "21127"
+                },
+                {
+                    "count": 19,
+                    "path": "21142",
+                    "state": "displayed",
+                    "name": "21142"
+                },
+                {
+                    "count": 19,
+                    "path": "21154",
+                    "state": "displayed",
+                    "name": "21154"
+                },
+                {
+                    "count": 19,
+                    "path": "24595",
+                    "state": "displayed",
+                    "name": "24595"
+                },
+                {
+                    "count": 18,
+                    "path": "7812",
+                    "state": "displayed",
+                    "name": "7812"
+                },
+                {
+                    "count": 18,
+                    "path": "7814",
+                    "state": "displayed",
+                    "name": "7814"
+                },
+                {
+                    "count": 18,
+                    "path": "7816",
+                    "state": "displayed",
+                    "name": "7816"
+                },
+                {
+                    "count": 18,
+                    "path": "7820",
+                    "state": "displayed",
+                    "name": "7820"
+                },
+                {
+                    "count": 18,
+                    "path": "7821",
+                    "state": "displayed",
+                    "name": "7821"
+                },
+                {
+                    "count": 18,
+                    "path": "7826",
+                    "state": "displayed",
+                    "name": "7826"
+                },
+                {
+                    "count": 18,
+                    "path": "7831",
+                    "state": "displayed",
+                    "name": "7831"
+                },
+                {
+                    "count": 18,
+                    "path": "17327",
+                    "state": "displayed",
+                    "name": "17327"
+                },
+                {
+                    "count": 18,
+                    "path": "17370",
+                    "state": "disp... (1 Ko restants)",
+                    "name": "1234"
+                }
+            ]
+        }
+    ]
+}
