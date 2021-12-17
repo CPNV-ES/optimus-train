@@ -9,7 +9,7 @@ api = Api(app)
 @app.route("/trains")
 def trains():
     response = requests.get(
-        "https://data.sbb.ch/api/records/1.0/search/?dataset=jahresformation&q=&facet=zug&facet=debicode&facet=zugart&facet=bhf_von&facet=bhf_bis&facet=umlauf&facet=block_bezeichnung&facet=beginnfahrplanperiode")
+        "https://data.sbb.ch/api/records/1.0/search/?dataset=jahresformation")
 
     json = response.json()
 
