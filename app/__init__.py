@@ -14,11 +14,3 @@ def trains():
     json = response.json()
 
     return jsonify(json['records'])
-
-
-@app.route("/schedules")
-def schedules():
-    value = {
-        "date": "date1"
-    }
-    return value
