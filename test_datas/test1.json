@@ -75,8 +75,8 @@
                 "an_prognose_status": "REAL",
                 "verkehrsmittel_text": "EC",
                 "lod": "http://lod.opentransportdata.swiss/didok/8501609",
-                "abfahrtszeit": "2021-12-02T15:16:00",
-                "ankunftszeit": "2021-12-02T15:14:00",
+                "abfahrtszeit": "2021-12-02T15:16:00",  // Departure time
+                "ankunftszeit": "2021-12-02T15:14:00",  // Arrival time
                 "ab_prognose_status": "REAL",
                 "betreiber_abk": "SBB",
                 "faellt_aus_tf": "false",

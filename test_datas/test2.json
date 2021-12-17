@@ -12,17 +12,17 @@
             "datasetid": "linie",
             "recordid": "135da43fc6def387f013fd2a166c1bcf5eb364e4",
             "fields": {
-                "linienname": "Lausanne - Simplon Tunnel I - Iselle",
-                "bpk_anfang": "Lausanne",
-                "geo_point_2d": [
+                "linienname": "Lausanne - Simplon Tunnel I - Iselle", 
+                "bpk_anfang": "Lausanne",           
+                "geo_point_2d": [                   
                     46.3619002097,
                     7.41805318777
                 ],
-                "km_ende": 167.478,
-                "stationierung_ende": 1000000,
-                "linie": 100,
-                "bpk_ende": "Iselle di Trasquera",
-                "tst": {
+                "km_ende": 167.478,                 
+                "stationierung_ende": 1000000,      
+                "linie": 100,                       
+                "bpk_ende": "Iselle di Trasquera",  
+                "tst": {                            
                     "type": "LineString",
                     "coordinates": [
                         [
@@ -35,10 +35,10 @@
                         ]
                     ]
                 },
-                "stationierung_anfang": 0,
-                "km_anfang": 0.0
+                "stationierung_anfang": 0,          
+                "km_anfang": 0.0                    
             },
-            "geometry": {
+            "geometry": {                           
                 "type": "Point",
                 "coordinates": [
                     7.41805318777,

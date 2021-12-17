@@ -1,10 +1,12 @@
 from flask import Flask
 from flask_restx import Api
+from flask import jsonify
 import json
 
 app = Flask(__name__)
 api = Api(app)
 
+# Trains
 @app.route("/trains")
 def trains():
     value = {
@@ -14,14 +16,20 @@ def trains():
     }
     return value
 
+# Schedules
 @app.route("/schedules")
 def schedules():
     value = {
         "date": "date1"
     }
     return value
-@app.route("/supermama")
+
+# Train lines
+#   Return a list of train lines as json
+@app.route("/lines")
 def super():
-    hihi = json.loads('["foo", {"bar":["baz", null, 1.0, 2]}]')
-    return (str(hihi))
-    #return json.dumps(hihi)
+    f = open('test_datas/test2.json')
+    jsonData = json.loads(f.read())
+    f.close()
+
+    return (jsonify(jsonData["records"]))
