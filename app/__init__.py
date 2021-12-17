@@ -6,8 +6,16 @@ api = Api(app)
 
 @app.route("/trains")
 def trains():
-    return "<p>Trains's section</p>"
+    value = {
+        "company": "compagny1",
+        "name": "train1",
+        "weight": "999"
+    }
+    return value
 
 @app.route("/schedules")
 def schedules():
-    return "<p>schedules's section!</p>"
+    value = {
+        "date": "date1"
+    }
+    return value
