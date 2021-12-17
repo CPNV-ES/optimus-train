@@ -30,7 +30,7 @@ $Env:FLASK_ENV="development"
 python -m flask run
 ```
 
-Alternatively you can also do this on Windows in the solution above didn't worked
+Alternatively you can also do this on Windows if the solution above didn't worked
 ```powershell
 python -m venv venv
 
