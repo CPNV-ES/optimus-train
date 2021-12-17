@@ -1,16 +1,8 @@
-from flask import Flask, jsonify
+from app.trains.controllers import mod_trains as trains_module
+from flask import Flask
 from flask_restx import Api
-import requests
 
 app = Flask(__name__)
 api = Api(app)
 
-
-@app.route("/trains")
-def trains():
-    response = requests.get(
-        "https://data.sbb.ch/api/records/1.0/search/?dataset=jahresformation")
-
-    json = response.json()
-
-    return jsonify(json['records'])
+app.register_blueprint(trains_module)
