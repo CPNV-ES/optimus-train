@@ -1,11 +1,51 @@
 # Optimus
+## Documentation
 
-## Running
+### API Endpoint
+```
+GET /api/trains
+```
+
+### Response body schema
+
+```json
+{
+"manufacturer" : "string",
+"constructed" : "string",
+"start_service" : "string",
+"end_service" : "string",
+"car" : "number",
+"capacity" : "number",
+"capacity_first" : "number",
+"capacity_second" : "number",
+"operator" : "string",
+"name" : "string",
+"length_m" : "number",
+"width_mm" : "number",
+"height_mm" : "number",
+"max_speed" : "number",
+"weight_t" : "number",
+"motor_type" : "string",
+"power_output_ac" : "number",
+"power_output_dc" : "number",
+"tractive_force" : "number",
+"electric_system" : "string",
+"current_collection" : "string",
+"uic_classification" : "string",
+"track_gauge_mm :" : "number"
+}
+```
+
+> Note : This is an example of what data could be returned
+
+## Get Started 
 
 First install the dependancies
 ```sh
 pip install -r requirements.txt
 ```
+
+### On Linux
 
 To create a virtual python environnment :
 
@@ -14,12 +54,13 @@ python3 -m venv venv
 
 . venv/bin/activate
 
-$ export FLASK_APP=app.py
-$ export FLASK_ENV=development
-$ python -m flask run
+export FLASK_APP=app.py
+export FLASK_ENV=development
+python -m flask run
 ```
 
-Or on Windows with Powershell 
+## On Windows with Powershell
+
 ```powershell
 python -m venv venv
 
@@ -40,8 +81,6 @@ $set FLASK_APP=app.py
 $set FLASK_ENV=development
 python -m flask run
 ```
-
-
 
 This launches a very simple builtin server, which is good enough for testing but probably not what you want to use in production.
 
