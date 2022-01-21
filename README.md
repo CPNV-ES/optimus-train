@@ -45,7 +45,7 @@ First install the dependancies
 pip install -r requirements.txt
 ```
 
-### On Linux
+### On ``Linux``
 
 To create a virtual python environnment :
 
@@ -59,7 +59,7 @@ export FLASK_ENV=development
 python -m flask run
 ```
 
-## On Windows with Powershell
+## On ``Windows`` with ``Powershell``
 
 ```powershell
 python -m venv venv
