@@ -6,3 +6,5 @@ app = Flask(__name__)
 api = Api(app)
 
 app.register_blueprint(trains_module)
+
+# test
